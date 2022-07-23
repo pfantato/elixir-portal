@@ -42,4 +42,4 @@ jobs:
           # Push
           git add .
           git commit -m "mix docs"
-          git push --set-upstream origin gh-pages -f
+          git push --set-upstream origin -u origin gh-pages -f
