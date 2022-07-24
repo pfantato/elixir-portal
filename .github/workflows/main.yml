@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Generate GitHub pages for project docs
 
 on:
   push:
