@@ -33,7 +33,6 @@ jobs:
       - name: Install Mix Dependencies
         if: steps.mix-cache.outputs.cache-hit != 'true'
         run: |
-          mix local.hex --force
           mix deps.get
 
       - name: Check Formatting
