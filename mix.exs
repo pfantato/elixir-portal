@@ -7,7 +7,18 @@ defmodule Portal.MixProject do
       version: "0.1.0",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+
+      # Docs
+      name: "Portal",
+      source_url: "https://github.com/pfantato/elixir-portal",
+      homepage_url: "https://elixir-portal.pfantato.github.io",
+      docs: [
+        # The main page in the docs
+        main: "Portal",
+        logo: "resources/logo.png",
+        extras: ["README.md"]
+      ]
     ]
   end
 
