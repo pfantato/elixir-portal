@@ -12,7 +12,7 @@ defmodule Portal.MixProject do
       # Docs
       name: "Portal",
       source_url: "https://github.com/pfantato/elixir-portal",
-      homepage_url: "https://elixir-portal.pfantato.github.io",
+      homepage_url: "https://pfantato.github.io/elixir-portal",
       docs: [
         # The main page in the docs
         main: "Portal",
